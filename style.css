@@ -1,0 +1,201 @@
+body {
+	font-family: "Arial", "Verdana", "Helvetica";
+	background-image: linear-gradient(to bottom, white, DodgerBlue);
+	margin: auto;
+}
+
+hr {
+	color: rgb(31,122,128);
+}
+
+.Headbox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+	color: rgb(31,122,128);
+}
+
+.Headitem {
+	flex-basis: auto;
+	align-self: center;
+}
+
+#Title {
+	width: 160px;
+	height: 80px;
+}
+
+#Happy-Picture {
+	background-image: url(oldmanphone.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 600px;
+	height: 600px;
+	position: relative;
+}
+
+#ServiceButton {
+	position: absolute;
+	top: 50%;
+	left: 7%;
+	width: 100px;
+	height: 50px;
+	font-family: "Arial", "Verdana", "Helvetica";
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: lightblue;
+}
+
+#ServiceButton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: white;
+}
+
+#DemoButton {
+	position: absolute;
+	top: 50%;
+	right: 7%;
+	width: 100px;
+	height: 50px;
+	font-family: "Arial", "Verdana", "Helvetica";
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: lightblue;
+}
+
+#DemoButton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: white;
+}
+
+.Major-Points {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: flex-start;
+	padding: 25px 25px 25px 25px;
+}
+
+.Major-Points-Image {
+	flex-basis: 33%;
+}
+
+.Major-Points-Paragraph {
+	flex-basis: 66%;
+}
+
+.Vision {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	padding: 25px 25px 25px 25px;
+	background-color: white;
+}
+
+.Vision-Item {
+	flex-basis: 45%;
+}
+
+.Benefits {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	padding: 25px 25px 25px 25px;
+}
+
+.Benefits-Image {
+	flex-basis: 30%;
+}
+
+.Benefits-Link {
+	flex-basis: 30%;
+}
+
+.Testimonial {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	padding: 25px 25px 25px 25px;
+	background-color: white;
+}
+
+.Testimonial-Text {
+	flex-basis: 50%;
+}
+
+.Testimonial-Image {
+	flex-basis: 35%;
+}
+
+.Footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-end;
+	padding: 20px 10px 20px 10px;
+}
+
+.Services-Container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: stretch;
+	padding: 20px 20px 20px 20px;
+}
+
+.Price-Button {
+	font-size: 18px;
+	font-family: "Arial", "Verdana", "Helvetica";
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: lightblue;
+}
+
+.Price-Button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: white;
+}
+
+#Description {
+	font-size: 25px;
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+#AboutPage {
+	font-size: 25px;
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+#SourcesofInformation {
+	font-size: 25px;
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}
+
+#WorkLog {
+	font-size: 25px;
+	margin: auto;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+}

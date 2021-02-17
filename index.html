@@ -3,34 +3,114 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>OnDemandMedical Homepage 2202-904</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-		<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
-
-<script>
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  var firebaseConfig = {
-    apiKey: "AIzaSyDz92S2g3J0wrKgVTaW9A7Tkw5T9_-qSm4",
-    authDomain: "webmasters-govmifflin.firebaseapp.com",
-    projectId: "webmasters-govmifflin",
-    storageBucket: "webmasters-govmifflin.appspot.com",
-    messagingSenderId: "162192402846",
-    appId: "1:162192402846:web:f3137717493caf196c4e8f",
-    measurementId: "G-L3XM1VGTG7"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
-</script>
-<!-- End of FIREBASE -->
-    <script src="script.js"></script>
+		<header>
+			<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+			<script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+			<script src="firebase.js"></script>
+			<div class="Headbox">
+				<span class="Headitem">
+					<a href="index.html"><img src="MedicalOnDemand.png" alt="On Demand" id="Title"></a>
+				</span>
+				<span class="Headitem"></span>
+				<span class="Headitem">
+					<a href="Services.html">Services</a>
+				</span>
+				<span class="Headitem">
+					<a href="About.html">About</a>
+				</span>
+				<span class="Headitem">
+					<a href="">Contact Us</a>
+				</span>
+				<span class="Headitem">
+					<a href="">Sign In</a>
+				</span>
+				<span class="Headitem">
+					<a href="/signup">Sign up</a>
+				</span>
+			</div>
+			<hr>
+		</header>
+		<main>
+			<div id="Happy-Picture">
+				<button onclick="location.href='Services.html'" type="button" id="ServiceButton" class="happybutton">Services</button>
+				<button onclick="location.href='index.html'"type="button" id="DemoButton" class="happybutton">Demo</button>
+			</div>
+			<div class="Major-Points">
+				<span class="Major-Points-Image">
+					<img src="earth.png" alt="cool picture 1" height="200px" width="200px">
+				</span>
+				<span class="Major-Points-Paragraph">
+					<p>OnDemandMedical is working with highly experienced and qualified licensed medical provider networks across the country so that you can feel safe using our services.</p>
+				</span>
+				<span class="Major-Points-Paragraph">
+					<p>OnDemandMedical has licensed medical professionals ready to help you around the clock. We pride ourselves on providing the best care for you, no matter the time and place.</p>
+				</span>
+				<span class="Major-Points-Image">
+					<img src="clock.png" alt="cool picture 2" height="200px" width="200px">
+				</span>
+			</div>
+			<div class="Vision">
+				<span class="Vision-Item" id="Vision-CEO">
+					<img src="CEO.jpg" height="280px" width="360px">
+				</span>
+				<span class="Vision-Item">
+					<p>Throughout my life, I have always believed there was an unnecessary gap between medical professionals and individuals.  This belief became the foundation for OnDemandMedical where medical professionals can be reached around the clock. <a href="">Find out more about the founder's vision</a></p>
+				</span>
+			</div>
+			<div class="Benefits">
+				<span class="Benefits-Image">
+					<img src="personalconnection.png" height="200px" width="200px">
+				</span>
+				<span class="Benefits-Image">
+					<img src="clock2.jpg" height="200px" width="200px">
+				</span>
+				<span class="Benefits-Image">
+					<img src="doctorpatient.jpg" height="200px" width="200px">
+				</span>
+				<span class="Benefits-Link">
+					<p><a href="">Personal Connection</a></p>
+				</span>
+				<span class="Benefits-Link">
+					<p><a href="">Around the Clock Support</a></p>
+				</span>
+				<span class="Benefits-Link">
+					<p><a href="">Patient Privilege</a></p>
+				</span>
+			</div>
+			<div class="Testimonial">
+				<span class="Testimonial-Text">
+					<p>“I’m a first-time user of OnDemandMedical and am VERY impressed. I signed up in less than 5 minutes, then scheduled a visit. I was diagnosed and had a prescription sent within minutes! I had the visit in the privacy of my office. No downtime or PTO used.” - Mrs. Kamille Hintz</p>
+				</span>
+				<span class="Testimonial-Image" height="200px" width="200px">
+					<img src="happycustomer.jfif" alt="Happy Trustworthy Person" height="200px" width="200px">
+				</span>
+			</div>
+		</main>
+		<footer>
+			<div class="Footer">
+				<span class="Footer-Item">
+					&#169; 2021
+				</span>
+				<span class="Footer-Item">
+					Address: 10 S. Waverly Street, Shillington, PA 19607
+				</span>
+				<span class="Footer-Item">
+					Phone: 610-775-1461
+				</span>
+				<span class="Footer-Item">
+					Fax: 610-775-6586
+				</span>
+				<span class="Footer-Item">
+					<a href="">Privacy Policy</a>
+				</span>
+				<span class="Footer-Item">
+					<a href="">Terms and Conditions</a>
+				</span>
+			</div>
+		</footer>
   </body>
 </html>
